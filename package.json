@@ -1,0 +1,17 @@
+{
+  "name": "nodedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo_eventemitter.js",
+  "dependencies": {
+    "formidable": "^1.2.1",
+    "nodemailer": "^4.6.4",
+    "upper-case": "^1.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
