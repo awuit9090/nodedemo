@@ -7,7 +7,7 @@ MongoClient.connect(url, (err, db) => {
   var dbo = db.db("mydb");
   //Exclude the _id field from the result:
   dbo.collection("customers").find(
-    {}, {projection: {_id: 0}}
+    {}, {projection: {_id: 0, name: 1}}
   ).toArray((err, result) => {
     if (err) throw err;
     console.log(result);
